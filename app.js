@@ -7,7 +7,7 @@ var express = require('express'),
 
 // Load environment variables from .env file
 require('dotenv').config({
-  path: 'credentials.env'
+  path: './env/credentials.env'
 });
 
 // Initialize Cloudant

@@ -1,0 +1,16 @@
+## See the Prerequisites section of README.md for more details of these values
+AccountID: 86657373910894828945dd81b01d20eb
+ClusterID: a201cd6a752e4da6b8a067edf790d640
+APIKey:    0z-_Qoi4UaWIStaawwWA7in19olpnLbUESYu228rhfez
+EmitURL:   https://va.ng.bluemix.net
+
+### Advanced
+## Override the default image location for the container scanner
+# Image: registry.bluemix.net/ibm/ibmcloud-container-scanner:%tag%
+## Override the credentials used to pull the container scanner image
+# ImagePullSecret: bluemix-default-secret-international
+## Change the cache location used on the worker filesystem
+# CacheFileLocation: /tmp
+## Override the IAM endpoint used for authentication
+# IAMURL: https://iam.bluemix.net
+
